@@ -53,23 +53,27 @@ button {
 @media(max-width:1280px) {
     .container {
         width: 100%;
+        align-items: center;
   }
   }
   
   @media(max-width:768px) {
     .container{
         width: 95%;
+        align-items: center;
   }
 }
   
   @media(max-width:480px) {
     .container {
         width: 74%;
+        align-items: center;
       }
   }
   
   @media(max-width:320px) {
     .container {
         width: 60%;
+        align-items: center;
       }
   }
