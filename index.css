@@ -49,3 +49,27 @@ button {
     background: rgba(252, 30, 30, 0.5);
     margin-top: 10px;
 }
+
+@media(max-width:1280px) {
+    .container {
+        width: 100%;
+  }
+  }
+  
+  @media(max-width:768px) {
+    .container{
+        width: 95%;
+  }
+}
+  
+  @media(max-width:480px) {
+    .container {
+        width: 74%;
+      }
+  }
+  
+  @media(max-width:320px) {
+    .container {
+        width: 60%;
+      }
+  }
