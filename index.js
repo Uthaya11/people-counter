@@ -1,13 +1,11 @@
 let countEl = document.getElementById("count-el")
 let count = 0
 let saveEl = document.getElementById("save-el")
-let deleteEl = document.getElementById("delete-el")
-let outBtn = document.getElementById("out-btn")
+
 
 function increment() {
     count = count + 1
     countEl.innerText = count
-    console.log(count)
 } 
 
 function save() {
@@ -22,8 +20,9 @@ function erase() {
     countEl.textContent = 0
 }
 
-function out() {
+function clearAll() {
     let countStr = '' 
+    countEl.textContent = 0
     saveEl.textContent = "Previous entries: " + ''
 }
 
